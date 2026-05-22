@@ -83,7 +83,7 @@ const Hero = () => {
             Software Developer
           </p>
           <p className="hero-tagline" data-testid="hero-tagline">
-            Driven by a strong interest in backend engineering and modern web technologies, I work with Python, Django, , REST APIs, and SQL to create functional and reliable digital experiences. I enjoy working with databases, application logic, and API integration while continuously strengthening my problem-solving abilities and exploring better approaches to software development.
+            Driven by a strong interest in backend engineering and modern web technologies, I work with Python, Django, REST APIs, and SQL to create functional and reliable digital experiences. I enjoy working with databases, application logic, and API integration while continuously strengthening my problem-solving abilities and exploring better approaches to software development.
           </p>
           <div className="hero-buttons">
             <a href="#contact" className="btn-primary" data-testid="contact-btn" onClick={(e) => {
@@ -128,9 +128,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="scroll-indicator" data-testid="scroll-indicator">
-        <div className="scroll-line"></div>
-      </div>
+      
     </section>
   );
 };
