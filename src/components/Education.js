@@ -3,6 +3,12 @@ import './Education.css';
 
 const Education = () => {
   const education = [
+     {
+      degree: 'Python Full Stack Development Course',
+      institution: 'Synnefo Solutions Kochi',
+      period: 'Aug 2023 - Feb 2024',
+      
+    },
   
     {
       degree: 'Diploma In Computer Engineering',
